@@ -10,6 +10,16 @@ Install the DNVM, DNU and DNX packages as described on that page.
 
 Clone / Fork this repo - and then enjoy :)
 
+To restore/build/run use the following commands (I work on a Mac - but this should work cross platform)
+
+$ git clone https://github.com/shabbirh/GDLibrary.git
+$ cd GDLibrary/
+$ dnu restore
+$ cd GDHarness/
+$ dnu restore
+$ dnu build
+$ dnx . run
+
 
 --- OPTIONAL---
 This first step is entirely optional - you can use the API console and that way you can track your API requests - however this is a public API and as such it doesn't need you to authenticate at this time - perhaps in the future it will do.  So details are here for clarity.
