@@ -4,6 +4,7 @@ LIbrary providing easy access to the Google Directions API from a .NET applicato
 HOWTO
 
 -- BUILDING----
+
 You will need the latest version of ASP.NET 5 (See: https://github.com/aspnet/Home)
 
 Install the DNVM, DNU and DNX packages as described on that page.
